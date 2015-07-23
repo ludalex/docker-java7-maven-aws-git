@@ -5,5 +5,5 @@ RUN apt-get install -y maven
 RUN apt-get install -y git
 RUN apt-get install -y zip
 RUN apt-get install -y python-pip
-RUN apt-get install -y mysql
+RUN apt-get install -y mysql-client
 RUN pip install awscli
