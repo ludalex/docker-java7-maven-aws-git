@@ -1,4 +1,4 @@
-FROM n3ziniuka5/ubuntu-oracle-jdk:14.04-JDK7
+FROM n3ziniuka5/ubuntu-oracle-jdk:14.04-JDK8
 
 RUN apt-get update
 RUN apt-get install -y maven
